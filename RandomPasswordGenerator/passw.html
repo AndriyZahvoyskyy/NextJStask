@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passw</title>
+    <link rel="stylesheet" href="passw.css">
+    <script src="passw.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="password-container">
+            <div class="password">zsfas221</div>
+            <button class="password-copy">
+                <img src=""/>
+            </button>
+        </div>
+        <div class="options-container">
+            <div class="lenght-container">
+                <div class="text">Character Lenght</div>
+                <div class="lenght">24</div>
+            </div>
+            <input type="range" min="5" max="25" value="10" class="slider">
+            <div class="input-container">
+                <input type="checkbox" id="upper">
+                <div class="text">Include Uppercase letters</div>
+            </div>
+            <div class="input-container">
+                <input type="checkbox" id="lower">
+                <div class="text">Include Lowercase letters</div>
+            </div>
+            <div class="input-container">
+                <input type="checkbox" id="numbers">
+                <div class="text">Include numbers</div>
+            </div>
+            <div class="input-container">
+                <input type="checkbox" id="symbols">
+                <div class="text">Include symbols</div>
+            </div>
+
+            <button class="button-generate">Generate</button>
+        </div>
+    </div>
+</body>
+</html>
